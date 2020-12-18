@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="eventbooking" method="upgrade">
+    <name>Events Booking - Zoom</name>
+    <author>Matt Hankosky</author>
+    <creationDate>May 2020</creationDate>
+    <copyright>No One</copyright>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <authorEmail>matt@hankosky.com</authorEmail>
+    <authorUrl>matthankosky.com</authorUrl>
+    <version>1.0</version>  
+    <description>This plugin is used to automatically register attendees for a Zoom Webibar or Zoom Meetings via Zooms API via JWT Token. See https://marketplace.zoom.us/docs/guides/build/jwt-app
+    </description>
+    <files>
+        <filename plugin="zoom">zoom.php</filename>
+    </files>    
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field
+                        name="zoom_jwt"
+                        type="text"
+                        class="input-xxlarge"
+                        label="Zoom JWT ID"
+                        description="Enter your Zoom JWT ID from the zoom app store"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

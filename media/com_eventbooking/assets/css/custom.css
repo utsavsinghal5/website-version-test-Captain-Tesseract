@@ -1,0 +1,18 @@
+a.eb-event-title {
+  
+  color:#000000
+  text-align:left
+  
+}
+a.eb-event-title:hover{
+  color:#176aaf
+}
+@media (max-width: 767px) {
+  .eb-event-container {
+    background-image: none;
+    padding: 0;
+}
+}
+h1{
+  size: 36px !important;
+}
