@@ -87,7 +87,12 @@ $layoutData = array(
 	'controlsClass'     => $controlsClass,
 );
 ?>
+
 <div id="eb-individual-registration-page" class="eb-container<?php echo $this->waitingList ? ' eb-waitinglist-individual-registration-form' : '';?>">
+    
+    
+    <div class="reg_logo_wrap"><img src="/images/reg-logo.png" class="logo_reg" alt=""></div>
+    
 	<h1 class="eb-page-heading"><?php echo $headerText; ?></h1>
 	<?php
 	if (strlen($msg))

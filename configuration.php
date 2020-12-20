@@ -9,7 +9,7 @@ class JConfig {
 	public $access = '1';
 	public $cache_handler = 'file';
 	public $cachetime = '15';
-	public $caching = '1';
+	public $caching = '0';
 	public $captcha = '0';
 	public $cookie_domain = '';
 	public $cookie_path = '';
@@ -30,7 +30,7 @@ class JConfig {
 	public $ftp_port = '21';
 	public $ftp_root = '';
 	public $ftp_user = '';
-	public $gzip = '1';
+	public $gzip = '0';
 	public $helpurl = 'https://help.joomla.org/proxy?keyref=Help{major}{minor}:{keyref}&lang={langcode}';
 	public $host = 'localhost';
 	public $lifetime = '100';

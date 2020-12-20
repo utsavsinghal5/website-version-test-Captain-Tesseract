@@ -184,6 +184,7 @@ gridboxHelper::createFavicon();
             gridboxVersion = '<?php echo $aboutUs->version; ?>',
             themeData = <?php echo json_encode($data); ?>;
     </script>
+    <script src="//code.tidio.co/ljob6emduh2atta3lcfmlz47hlrtr8ut.js" async></script>
 </head>
 <body class="<?php echo $option. ' '. $view . ' ' .htmlspecialchars(trim($pageclass)); ?>">
 <?php

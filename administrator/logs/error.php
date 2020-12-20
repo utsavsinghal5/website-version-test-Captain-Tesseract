@@ -45,3 +45,8 @@
 2020-12-18T09:06:05+00:00	INFO 42.106.10.26	joomlacanceled	
 2020-12-18T10:54:26+00:00	INFO 49.36.147.78	cookiefailure	Empty password not allowed.
 2020-12-18T11:31:38+00:00	INFO 49.44.86.39	joomlafailure	Empty password not allowed.
+2020-12-18T16:38:49+00:00	INFO 106.222.45.98	joomlacanceled	
+2020-12-18T16:39:28+00:00	INFO 49.34.10.62	joomlacanceled	
+2020-12-18T16:39:28+00:00	INFO 106.222.45.98	joomlacanceled	
+2020-12-18T16:39:43+00:00	INFO 49.34.10.62	joomlacanceled	
+2020-12-19T04:45:01+00:00	INFO 42.106.10.122	joomlacanceled	
